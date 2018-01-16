@@ -25,6 +25,10 @@ gem 'font-awesome-sass'
 gem 'geocoder', '~> 1.4'
 gem 'jquery-ui-rails', '~> 5.0'
 gem 'ransack', '~> 1.7'
+gem 'twilio-ruby', '~> 4.11.1'
+gem 'fullcalendar-rails', '~> 3.4.0'
+gem 'momentjs-rails', '~> 2.17.1'
+gem 'active_model_serializers', '~> 0.10.0', require: true
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
